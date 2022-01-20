@@ -2,9 +2,10 @@
 
 This is the Blockchain ledger system application for Challenge 18! I create a Record data class that stores
 3 attributes: sender, receiver, and amount. I specify a variable type for each.  I modify the Block data class
-so it can receive my Record data as one block of the 3 attributes I gave it. 
-
-
+so it can receive my Record data as one block of the 3 attributes I gave it. I then go to the streamlit part of the code
+and change the input method by deleting the original method and adding three that allows the user to enter a sender, receiver,
+and amount. When the web application runs through streamlit one can see that there are now three input boxes for the user.
+Once the user enters values in each, I populate the ledger by putting the 3 attributes in the first column called record. The other columns are populated as before.  From there one is able to validate the chain by clicking the button.  This was such a fun challenge!
 
 ## Technologies
 
